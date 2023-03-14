@@ -1,1 +1,12 @@
-
+git init
+echo “Fichero repo1” > repo1.txt
+echo “Fichero repo2” > repo2.txt
+git add .
+git commit –m “Creo repo1 y repo2 paso 1”
+echo “Nuevo dato repo1” >> repo1.txt
+echo “Nuevo dato repo2” >> repo2.txt
+git add .
+git commit –m “Nueva línea en repo1 y 2 paso2”
+git status
+ls –al
+git log –oneline
